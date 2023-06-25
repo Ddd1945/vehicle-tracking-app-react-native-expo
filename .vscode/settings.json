@@ -1,0 +1,14 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "off",
+    "git.ignoreLimitWarning": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}

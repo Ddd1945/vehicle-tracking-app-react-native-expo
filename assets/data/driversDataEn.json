@@ -1,0 +1,62 @@
+[
+    {
+        "model": "Toyota Camry",
+        "driver": "Jack Ma",
+        "vin": "R0KFU29CP8MTD5JN7",
+        "type": "Cargo"
+    },
+    {
+        "model": "Ford Mustang",
+        "driver": "Alex Pereira",
+        "vin": "YH83SGV42FW0CRP9E",
+        "type": "Passenger Transport"
+    },
+    {
+        "model": "GAZ-53",
+        "driver": "Elon Musk",
+        "vin": "T6CNHADL5VR09YX2M",
+        "type": "Cargo"
+    },
+    {
+        "model": "BMW X5",
+        "driver": "Lyovin Denis",
+        "vin": "1DKGHEBZXA9MP73WC",
+        "type": "Passenger Transport"
+    },
+    {
+        "model": "Chevrolet Silverado",
+        "driver": "Israel Adesanya",
+        "vin": "7VYTNZR1JF2XBKP03",
+        "type": "Passenger Transport"
+    },
+    {
+        "model": "Mercedes-Benz C-Class",
+        "driver": "Conor McGregor",
+        "vin": "MPKW3VL0GFD9N8R4Y",
+        "type": "Passenger Transport"
+    },
+    {
+        "model": "Jeep Wrangler",
+        "driver": "Mike Tyson",
+        "vin": "0S2BN95AFJK1RP4GD",
+        "type": "Special Transport"
+    },
+    {
+        "model": "Volkswagen Golf",
+        "driver": "Peter Parker",
+        "vin": "3PVJ79U8NKXB5DMHR",
+        "type": "Cargo"
+    },
+    {
+        "model": "Audi Q7",
+        "driver": "George Orwell",
+        "vin": "A1D0FX2MGP8J9R4YW",
+        "type": "Passenger Transport"
+    },
+    {
+        "model": "Lada Priora",
+        "driver": "Petr Yan",
+        "vin": "4CY3DHU1NVF7GSJXB",
+        "type": "Special Transport"
+    }
+]

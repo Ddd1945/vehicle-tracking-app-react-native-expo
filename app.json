@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "client",
+    "slug": "client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "Enter here your google API key"
+        }
+      },
+      "package": "com.dendyy1945.client"
+    },
+    "web": {
+      "favicon": "./assets/icons/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b7e06a0-30c6-4c13-b7a8-75432a1eee03"
+      }
+    }
+  }
+}

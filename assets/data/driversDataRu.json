@@ -1,0 +1,62 @@
+[
+    {
+        "model": "Toyota Camry",
+        "driver": "Джек Ма",
+        "vin": "R0KFU29CP8MTD5JN7",
+        "type": "Грузовик"
+    },
+    {
+        "model": "Ford Mustang",
+        "driver": "Алекс Перейра",
+        "vin": "YH83SGV42FW0CRP9E",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "GAZ-53",
+        "driver": "Илон Маск",
+        "vin": "T6CNHADL5VR09YX2M",
+        "type": "Грузовик"
+    },
+    {
+        "model": "BMW X5",
+        "driver": "Лёвин Денис",
+        "vin": "1DKGHEBZXA9MP73WC",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "Chevrolet Silverado",
+        "driver": "Израель Адесанья",
+        "vin": "7VYTNZR1JF2XBKP03",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "Mercedes-Benz C-Class",
+        "driver": "Конор МакГрегор",
+        "vin": "MPKW3VL0GFD9N8R4Y",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "Jeep Wrangler",
+        "driver": "Майк Тайсон",
+        "vin": "0S2BN95AFJK1RP4GD",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "Volkswagen Golf",
+        "driver": "Питер Паркер",
+        "vin": "3PVJ79U8NKXB5DMHR",
+        "type": "Грузовик"
+    },
+    {
+        "model": "Audi Q7",
+        "driver": "Джордж Оруэлл",
+        "vin": "A1D0FX2MGP8J9R4YW",
+        "type": "Легковой Автомобиль"
+    },
+    {
+        "model": "Lada Priora",
+        "driver": "Пётр Ян",
+        "vin": "4CY3DHU1NVF7GSJXB",
+        "type": "Легковой Автомобиль"
+    }
+]
