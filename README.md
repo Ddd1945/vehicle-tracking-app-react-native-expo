@@ -51,7 +51,7 @@ Run <i>npm start</i> to run application via metro.
 7. Install released <i>.apk</i> on your phone.
 8. For more details check official documentation - <i>https://docs.expo.dev/build/setup/</i>
 
-### P.S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.
+### <i>P. S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.</i>
 
 License
 ----
