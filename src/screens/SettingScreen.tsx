@@ -11,7 +11,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from '../../styles/styles';
 
 const SettingScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
-     // Logging to SettingsScreen
+     // Logging for SettingsScreen
     const [logging] = useLogging('Setting Screen');
     const { navigation, route } = props;
 
