@@ -1,3 +1,7 @@
+/**
+ * Hook for Logging class 
+ */
+
 import { useRef } from 'react';
 import Logging from '../library/Logging';
 
