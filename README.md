@@ -35,7 +35,7 @@
 3. Code should be clean and easy to read;
 
 ### INSTALLATION
-1. Run npm <i>config set legacy-peer-deps true</i>i to skip peer dependency conflict checks.
+1. Run npm <i>config set legacy-peer-deps true</i> to skip peer dependency conflict checks.
 2. Run <i>npm install</i> to install all required dependencies.
 
 ### DEVELOPMENT
