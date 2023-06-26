@@ -9,8 +9,10 @@ import styles from '../../styles/styles';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
+    // Hooks to force component to reload
     const [isLogedin, setIsLogedin] = React.useState(false);
 
+    // If program was just launched then check language in storage, change language in i18n settings and update component.
     if (!global.isHomeJustLaunched)
         AsyncStorage.getItem('LNG').then((lng) => {
             if (lng != null) {
@@ -22,14 +24,18 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
             } else setIsLogedin(false)
         })
 
+    // logging for HomeScreen component
     const [logging] = useLogging('Home Screen');
     const { navigation, route } = props;
 
+    // Data that will be used in flatlist
     interface flatData { record: string };
     const DATA: flatData[] = [];
 
+    // Here will be stored data from .json file
     let driversData;
 
+    // Assign data with consideration of choosen language
     if (i18n.language === 'en') {
         navigation.setOptions({ title: 'List' });
         driversData = driversDataEn;
@@ -38,10 +44,12 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         driversData = driversDataRu;
     }
 
+    // Hook for logging
     useEffect(() => {
         logging.info({ navigation, route });
     }, [logging]);
 
+    // Process data from json file, sort it and convert to string for flatlist
     {
         for (let a = 0; a < driversData.length; a++)
             DATA.push({
@@ -53,8 +61,10 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
             })
     }
 
+    // Configuration for item props
     type ItemProps = { title: string };
 
+    // Representation of every single item in the flatlist.
     const Item = ({ title }: ItemProps) => (
         <TouchableOpacity onPress={() => navigation.navigate('Map', { data: title })}>
             <View style={styles.item}>
@@ -63,6 +73,7 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         </TouchableOpacity >
     );
 
+    // Return flatlist
     return (
         <View >
             <FlatList
@@ -73,4 +84,5 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     );
 };
 
+// export component to use it outside
 export default HomeScreen;
