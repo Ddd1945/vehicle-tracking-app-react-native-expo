@@ -1,3 +1,7 @@
+/**
+ * Styles for whole application
+ */
+
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -47,4 +51,5 @@ const styles = StyleSheet.create({
     }
 });
 
+// Export styles
 export default styles;
