@@ -1,3 +1,5 @@
+//Props for routes
+
 import IRouteProps from '../library/RouteProps';
 import HomeScreen from '../screens/HomeScreen';
 import MapScreen from '../screens/MapScreen';
@@ -23,4 +25,5 @@ const routes: IRouteProps[] = [
     }
 ];
 
+// Export routes
 export default routes;
