@@ -11,6 +11,8 @@ import * as RootNavigation from './src/hooks/rootNavigation'
 import styles from './styles/styles';
 import { TouchableOpacity } from 'react-native';
 
+declare global { var isHomeJustLaunched: boolean }
+
 const Stack = createStackNavigator();
 
 export default function App() {
