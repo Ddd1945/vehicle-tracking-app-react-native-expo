@@ -24,7 +24,8 @@ const SettingScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     if (i18n.language === 'en') navigation.setOptions({ title: 'Settings' })
     else navigation.setOptions({ title: 'Настройки' })
 
-    // When button pressed will set data in srorage on device with 'en' or 'ru' values
+    /* When button is pressed then set data in storage on device with 'en' or 'ru' values, 
+    change i18n settings and navigate to HomeScreen with an empty data in params to force component to update*/
     return (
         <View style={styles.container}>
             {i18n.language == 'en' ?
