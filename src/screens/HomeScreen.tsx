@@ -88,5 +88,5 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     );
 };
 
-// export component to use it outside
+// Export HomeScreen
 export default HomeScreen;
