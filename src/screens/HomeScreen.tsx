@@ -32,6 +32,11 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     const [logging] = useLogging('Home Screen');
     const { navigation, route } = props;
 
+        // Hook for logging
+    useEffect(() => {
+        logging.info({ navigation, route });
+    }, [logging]);
+
     // Data that will be used in flatlist
     interface flatData { record: string };
     const DATA: flatData[] = [];
@@ -47,11 +52,6 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         navigation.setOptions({ title: 'Список' });
         driversData = driversDataRu;
     }
-
-    // Hook for logging
-    useEffect(() => {
-        logging.info({ navigation, route });
-    }, [logging]);
 
     // Process data from json file, sort it and convert to string for flatlist
     {
