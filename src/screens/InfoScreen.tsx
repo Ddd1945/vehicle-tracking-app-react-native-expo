@@ -24,7 +24,7 @@ const InfoScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     if (i18n.language === 'en') navigation.setOptions({ title: 'Information' })
     else navigation.setOptions({ title: 'Информация' })
 
-    // Info about choosen driver passed from HomeScreen' flatlist
+    // Data about choosen driver passed from MapScreen
     let data: string = route.params.data;
 
     // For sake of simplicity every driver has the same phone number
