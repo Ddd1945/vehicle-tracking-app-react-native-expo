@@ -1,3 +1,7 @@
+/**
+ * i18n is created to handle multiple languages in application
+ */
+
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
@@ -31,4 +35,5 @@ i18n.use(initReactI18next).init({
     fallbackLng: 'en'
 });
 
+// Export i18n
 export default i18n;
