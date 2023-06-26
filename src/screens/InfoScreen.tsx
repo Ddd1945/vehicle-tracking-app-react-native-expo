@@ -11,7 +11,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 import styles from '../../styles/styles';
 
 const InfoScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
-    // Logging to InfoScreen
+    // Logging for InfoScreen
     const [logging] = useLogging('Info Screen');
     const { navigation, route } = props;
 
