@@ -1,3 +1,7 @@
+/**
+ * Interface for IRouteProps
+ */
+
 import { IStackScreenProps } from './StackScreenProps';
 
 export default interface IRouteProps {
