@@ -28,7 +28,7 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
             } else setIsLogedin(false)
         })
 
-    // logging for HomeScreen
+    // Logging for HomeScreen
     const [logging] = useLogging('Home Screen');
     const { navigation, route } = props;
 
