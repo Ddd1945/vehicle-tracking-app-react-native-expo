@@ -1,3 +1,7 @@
+/**
+ * Entry point for application
+ */
+
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -11,6 +15,7 @@ import * as RootNavigation from './src/hooks/rootNavigation'
 import styles from './styles/styles';
 import { TouchableOpacity } from 'react-native';
 
+// Global variable is used in HomeScene to indicate whether HomeScene was 'JustLaunched' 
 declare global { var isHomeJustLaunched: boolean }
 
 const Stack = createStackNavigator();
@@ -18,10 +23,12 @@ const Stack = createStackNavigator();
 export default function App() {
     const [logging] = useLogging('Application');
 
+    // logging entry point of application
     useEffect(() => {
         logging.info('Loading application.');
     }, [logging]);
 
+    // Ref is used to handle header buttons in application
     return (
         <MenuProvider>
             <NavigationContainer ref={navigationRef}>
