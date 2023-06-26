@@ -20,7 +20,7 @@ const InfoScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         logging.info({ navigation, route });
     }, [logging]);
 
-    // Update language of the List Header consider to choosen language
+    // Set header consider to choosen language
     if (i18n.language === 'en') navigation.setOptions({ title: 'Information' })
     else navigation.setOptions({ title: 'Информация' })
 
