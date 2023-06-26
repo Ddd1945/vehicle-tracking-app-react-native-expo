@@ -1,3 +1,7 @@
+/**
+ * Hook created for navigation via header
+ */
+
 import * as React from 'react';
 
 export const navigationRef = React.createRef();
