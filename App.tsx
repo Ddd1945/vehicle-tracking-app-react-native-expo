@@ -21,9 +21,10 @@ declare global { var isHomeJustLaunched: boolean }
 const Stack = createStackNavigator();
 
 export default function App() {
+    // Logging for App
     const [logging] = useLogging('Application');
 
-    // logging entry point of application
+    // Hook for logging
     useEffect(() => {
         logging.info('Loading application.');
     }, [logging]);
