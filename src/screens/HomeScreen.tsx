@@ -1,3 +1,7 @@
+/**
+ * Screen used to represent data about all drivers from .json file
+ */
+
 import React, { useEffect } from 'react';
 import { FlatList, Text, TouchableOpacity, View } from 'react-native';
 import { useLogging } from '../hooks/useLogging';
