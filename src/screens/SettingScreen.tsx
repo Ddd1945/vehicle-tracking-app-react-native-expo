@@ -1,3 +1,7 @@
+/**
+ * Settings screen to change language
+ */
+
 import React, { useEffect } from 'react';
 import { Button, View } from 'react-native';
 import { useLogging } from '../hooks/useLogging';
@@ -7,16 +11,20 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from '../../styles/styles';
 
 const SettingScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
+     // Logging to SettingsScreen
     const [logging] = useLogging('Setting Screen');
     const { navigation, route } = props;
 
+    // Hook for logging
     useEffect(() => {
         logging.info({ navigation, route });
     }, [logging]);
 
+    // Set header consider to choosen language
     if (i18n.language === 'en') navigation.setOptions({ title: 'Settings' })
     else navigation.setOptions({ title: 'Настройки' })
 
+    // When button pressed will set data in srorage on device with 'en' or 'ru' values
     return (
         <View style={styles.container}>
             {i18n.language == 'en' ?
@@ -36,4 +44,5 @@ const SettingScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     );
 };
 
+// Export SettingsScreen
 export default SettingScreen;
