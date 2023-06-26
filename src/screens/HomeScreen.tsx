@@ -32,7 +32,7 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     const [logging] = useLogging('Home Screen');
     const { navigation, route } = props;
 
-        // Hook for logging
+    // Hook for logging
     useEffect(() => {
         logging.info({ navigation, route });
     }, [logging]);
