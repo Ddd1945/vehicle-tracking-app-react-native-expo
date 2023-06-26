@@ -23,4 +23,5 @@ class Logging {
     public setNamespace = (namespace: string) => { this.namespace = namespace; };
 }
 
+// Export logging
 export default Logging;
