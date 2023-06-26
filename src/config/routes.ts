@@ -1,4 +1,6 @@
-// Props for routes
+/**
+ * Props for routes
+ */
 
 import IRouteProps from '../library/RouteProps';
 import HomeScreen from '../screens/HomeScreen';
