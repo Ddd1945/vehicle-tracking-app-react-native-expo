@@ -39,7 +39,7 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     // Here will be stored data from .json file
     let driversData;
 
-    // Assign data with consideration of choosen language
+    // Assign data and set header with consideration of choosen language
     if (i18n.language === 'en') {
         navigation.setOptions({ title: 'List' });
         driversData = driversDataEn;
