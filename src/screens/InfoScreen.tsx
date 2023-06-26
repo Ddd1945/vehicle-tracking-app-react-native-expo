@@ -64,5 +64,5 @@ const InfoScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
     );
 };
 
-// Export InfoScreen to use it outside
+// Export InfoScreen
 export default InfoScreen;
