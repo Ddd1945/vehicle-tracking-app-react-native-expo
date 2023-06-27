@@ -23,8 +23,8 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
                 if (lng === 'en') i18n.changeLanguage('en');
                 else i18n.changeLanguage('ru');
                 setIsLogedin(true)
-                global.isHomeJustLaunched = true;
             }
+            global.isHomeJustLaunched = true;
         })
 
     // Logging for HomeScreen
