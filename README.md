@@ -52,7 +52,6 @@ Run <i>npm start</i> to start a development server.
 <b>NOTE!</b> 
 1. If <i>eas</i> commands doesn't work try to use them via <i>npx</i> e.g. <i>npx eas login</i>
 2. In case of <i>"You need to configure Git with your username (user.name)"</i> error or something like that check this tutorial - <a href="https://www.youtube.com/watch?v=9aF_5eU14L4" target="_blank"><b><i>COWABUNGA!</i></b></a>
-
 3. If you want to configure build project by himself check the official documentation - <a href="https://docs.expo.dev/build/setup/" target="_blank"><b><i>OFFICIAL DOCS</i></b></a>
 
 ### <i>P. S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.</i>
