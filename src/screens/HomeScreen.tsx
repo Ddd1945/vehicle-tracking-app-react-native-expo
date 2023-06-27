@@ -24,7 +24,8 @@ const HomeScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
                 else i18n.changeLanguage('ru');
                 setIsLogedin(true)
                 global.isHomeJustLaunched = true;
-            })
+            }
+        })
 
     // Logging for HomeScreen
     const [logging] = useLogging('Home Screen');
