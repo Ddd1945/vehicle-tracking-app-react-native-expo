@@ -49,7 +49,7 @@ Run <i>npm start</i> to run application via metro.
 5. Set phone number in <i>InfoScreen.tsx</i> file.
 6. Run <i>eas build -p android --profile preview</i> to build project for android.
 7. Install released <i>.apk</i> on your phone.
-8. For more details check official documentation - <i>https://docs.expo.dev/build/setup/</i>
+8. If <i>eas</i> commands doesn't work try to use <i>npx eas</i>. For more details check official documentation - <i>https://docs.expo.dev/build/setup/</i>
 
 ### <i>P. S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.</i>
 
