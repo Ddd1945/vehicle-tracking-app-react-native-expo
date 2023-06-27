@@ -44,12 +44,11 @@ Run <i>npm start</i> to start a development server.
 ### DEPLOYMENT
 1. Run <i>npm install -g eas-cli</i> to install the latest EAS CLI.
 2. Run <i>eas login</i> to login to your Expo account.
-3. Run <i>eas build:configure</i> to configure your project.
-4. Set Google API key in <i>app.json</i> file.
-5. Set phone number in <i>InfoScreen.tsx</i> file.
-6. Run <i>eas build -p android --profile preview</i> to build project for android.
-7. Install released <i>.apk</i> on your phone.
-8. If <i>eas</i> commands doesn't work try to use <i>npx eas</i>. For more details check official documentation - <i>https://docs.expo.dev/build/setup/</i>
+3. Set Google API key in <i>app.json</i> file.
+4. Set phone number in <i>InfoScreen.tsx</i> file.
+5. Run <i>eas build -p android --profile preview</i> to build project for android.
+6. Install released <i>.apk</i> on your phone.
+<b>NOTE!</b> If <i>eas</i> commands doesn't work try to use <i>npx eas</i>. if you want to configure build project by himself check official documentation - <i>https://docs.expo.dev/build/setup/</i>
 
 ### <i>P. S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.</i>
 
