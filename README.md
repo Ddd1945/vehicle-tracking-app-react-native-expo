@@ -39,7 +39,7 @@
 2. Run <i>npm install</i> to install all required dependencies.
 
 ### DEVELOPMENT
-Run <i>npm start</i> to run application via metro.
+Run <i>npm start</i> to start a development server.
 
 ### DEPLOYMENT
 1. Run <i>npm install -g eas-cli</i> to install the latest EAS CLI.
