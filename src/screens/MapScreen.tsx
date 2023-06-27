@@ -20,7 +20,7 @@ const MapScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         logging.info({ navigation, route });
     }, [logging]);
 
-    // Set header consider to choosen language
+    // Set header with choosen language
     if (i18n.language === 'en') navigation.setOptions({ title: 'Map' })
     else navigation.setOptions({ title: 'Карта' })
 
