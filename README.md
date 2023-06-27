@@ -49,7 +49,10 @@ Run <i>npm start</i> to start a development server.
 5. Run <i>eas build -p android --profile preview</i> to build project for android.
 6. Install released <i>.apk</i> on your phone.
 
-<b>NOTE!</b> If <i>eas</i> commands doesn't work try to use <i>npx eas</i>. if you want to configure build project by himself check official documentation - <i>https://docs.expo.dev/build/setup/</i>
+<b>NOTE!</b> 
+1. If <i>eas</i> commands doesn't work try
+2. In case of <i>You need to configure Git with your username (user.name)</i> error pr something like that check this tutorial - https://www.youtube.com/watch?v=9aF_5eU14L4
+3. if you want to configure build project by himself check official documentation - <i>https://docs.expo.dev/build/setup/</i>
 
 ### <i>P. S. Please, support me - https://ko-fi.com/dendyy1945, subscribe, and give a star to this project if it was helpful for you.</i>
 
