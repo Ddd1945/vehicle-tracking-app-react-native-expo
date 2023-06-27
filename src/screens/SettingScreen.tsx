@@ -20,7 +20,7 @@ const SettingScreen: React.FunctionComponent<IStackScreenProps> = (props) => {
         logging.info({ navigation, route });
     }, [logging]);
 
-    // Set header consider to choosen language
+    // Set header consider with choosen language
     if (i18n.language === 'en') navigation.setOptions({ title: 'Settings' })
     else navigation.setOptions({ title: 'Настройки' })
 
