@@ -24,7 +24,7 @@
      3. Driver's name;
      4. Contact number of the driver;
      5. Button "Call". Opens the application with a dialer and the already substituted driver's number;
-     6. Button "Write". Opens the whatsapp application with a driver chat and a pre-installed message: “Good afternoon, please tell me which order number you currently have in work.”
+     6. Button "Message". Opens the whatsapp application with a driver chat and a pre-installed message: “Good afternoon, please tell me which order number you currently have in work.”
 
 ▪ **Screen with settings.** Should contain only the ability to switch languages from English to Russian and vice versa.
 
