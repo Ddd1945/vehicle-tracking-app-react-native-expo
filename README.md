@@ -50,7 +50,7 @@ Run <i>npm start</i> to start a development server.
 6. Install released <i>.apk</i> on your phone.
 
 <b>NOTE!</b> 
-1. If <i>eas</i> commands doesn't work try to use them via <i>npx</i> e.g. <i>npx eas login</i>
+1. If <i>eas</i> commands don't work try to use them via <i>npx</i> e.g. <i>npx eas login</i>
 2. In case of <i>"You need to configure Git with your username (user.name)"</i> error or something like that check this tutorial - <a href="https://www.youtube.com/watch?v=9aF_5eU14L4" target="_blank"><b><i>COWABUNGA!</i></b></a>
 3. If you want to configure build project by yourself check the official documentation - <a href="https://docs.expo.dev/build/setup/" target="_blank"><b><i>EXPO DOCS</i></b></a>
 
