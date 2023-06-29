@@ -2,8 +2,6 @@
 
 ### Application description:
 
-### !!! APPLICATION WAS CREATED WITH EXPO.
-
 ▪ **Vehicle list screen**.
 
 1. The user should be able to filter the vehicles by their categories by clicking the “Apply” button by category:
